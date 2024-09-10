@@ -1,17 +1,20 @@
-#imports example robot
+from Bombasticbot import Bombasticbot
 from example import ExampleBot
 
 if __name__ == "__main__":
 
-    #Testing Fred
-    fred = ExampleBot('Fred')
-    fred.speak()
-    fred.on()
-    fred.speak()
-    fred.calculateSquare(4)
-    fred.off()
-    fred.speak()
-    fred.on()
-    fred.calculateSquare(3452324)
+ 
+
+
+
+    bot = Bombasticbot('bot')
+    bot.speak()
+    bot.on()
+    bot.speak()
+    bot.calculateSquare(4)
+    bot.off()
+    bot.speak()
+    bot.on()
+    bot.calculateSquare(3452324)
 
 
