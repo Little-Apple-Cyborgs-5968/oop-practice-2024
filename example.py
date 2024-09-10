@@ -1,7 +1,6 @@
-#importing the robot and speaker files
+# the robot and speaker files
 from robot import Robot
 from components.speaker import Speaker
-
 #Declares a new class that extends the robot class
 class ExampleBot(Robot):
 
@@ -26,4 +25,3 @@ class ExampleBot(Robot):
                 self.off()
             else:
                 self.speaker.speak(str(n ** 2))
-
