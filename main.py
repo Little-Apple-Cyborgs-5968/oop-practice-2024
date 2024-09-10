@@ -1,5 +1,6 @@
 #imports example ronot
 from example import ExampleBot
+from myrobo import Myrobo
 from bertieRobot import BertieRobot
 
 if __name__ == "__main__":
@@ -19,3 +20,5 @@ if __name__ == "__main__":
     bertie.speak()
     bertie.on()
     bertie.speak()
+    bob = Myrobo("myrob")
+    bob.baller(" schlorp")
