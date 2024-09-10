@@ -1,5 +1,6 @@
-#imports example robot
+#imports example ronot
 from example import ExampleBot
+from bertieRobot import BertieRobot
 
 if __name__ == "__main__":
 
@@ -14,4 +15,7 @@ if __name__ == "__main__":
     fred.on()
     fred.calculateSquare(3452324)
 
-
+    bertie = BertieRobot('Bertie')
+    bertie.speak()
+    bertie.on()
+    bertie.speak()
