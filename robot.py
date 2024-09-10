@@ -16,3 +16,4 @@ class Robot:
     def off(self):
         '''Powers off the robot'''
         self.poweredOn = False
+    
